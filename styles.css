@@ -16,7 +16,7 @@ header {
     padding: 20px;
 }
 
-.category h2, .year h3 {
+.category h2, .year h3, .shift h4, .paper h4 {
     cursor: pointer;
     color: #333;
     padding: 10px;
@@ -25,7 +25,7 @@ header {
     margin-top: 10px;
 }
 
-.category-content, .year-content {
+.category-content, .year-content, .shift-content, .paper-content {
     display: none;
 }
 
@@ -37,7 +37,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.question h4 {
+.question h5 {
     margin-top: 0;
 }
 

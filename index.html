@@ -10,7 +10,7 @@
 
     <header>
         <h1>JEE Previous Year Questions</h1>
-        <p>Find detailed solutions for JEE Mains and Advanced questions, organized by year.</p>
+        <p>Detailed solutions for JEE Mains (4 shifts) and Advanced (2 papers) organized by year.</p>
     </header>
 
     <section id="content">
@@ -24,31 +24,39 @@
                 <div class="year">
                     <h3 onclick="toggleYear('mains2022')">2022</h3>
                     <div id="mains2022" class="year-content">
-                        <div class="question">
-                            <h4>Question 1</h4>
-                            <p>This is a JEE Mains 2022 question...</p>
-                            <button onclick="toggleSolution(1)">Show Solution</button>
-                            <div id="solution1" class="solution">
-                                <p>Solution for JEE Mains 2022 Question 1...</p>
+                        
+                        <!-- Mains Shifts -->
+                        <div class="shift">
+                            <h4 onclick="toggleShift('mains2022shift1')">Shift 1</h4>
+                            <div id="mains2022shift1" class="shift-content">
+                                <div class="question">
+                                    <h5>Question 1</h5>
+                                    <p>This is a JEE Mains 2022 Shift 1 question...</p>
+                                    <button onclick="toggleSolution(1)">Show Solution</button>
+                                    <div id="solution1" class="solution">
+                                        <p>Solution for JEE Mains 2022 Shift 1 Question 1...</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!-- Add more questions similarly -->
+
+                        <div class="shift">
+                            <h4 onclick="toggleShift('mains2022shift2')">Shift 2</h4>
+                            <div id="mains2022shift2" class="shift-content">
+                                <div class="question">
+                                    <h5>Question 1</h5>
+                                    <p>This is a JEE Mains 2022 Shift 2 question...</p>
+                                    <button onclick="toggleSolution(2)">Show Solution</button>
+                                    <div id="solution2" class="solution">
+                                        <p>Solution for JEE Mains 2022 Shift 2 Question 1...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Shift 3 and Shift 4 similarly -->
                     </div>
                 </div>
 
-                <div class="year">
-                    <h3 onclick="toggleYear('mains2021')">2021</h3>
-                    <div id="mains2021" class="year-content">
-                        <div class="question">
-                            <h4>Question 1</h4>
-                            <p>This is a JEE Mains 2021 question...</p>
-                            <button onclick="toggleSolution(2)">Show Solution</button>
-                            <div id="solution2" class="solution">
-                                <p>Solution for JEE Mains 2021 Question 1...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -61,30 +69,39 @@
                 <div class="year">
                     <h3 onclick="toggleYear('adv2022')">2022</h3>
                     <div id="adv2022" class="year-content">
-                        <div class="question">
-                            <h4>Question 1</h4>
-                            <p>This is a JEE Advanced 2022 question...</p>
-                            <button onclick="toggleSolution(3)">Show Solution</button>
-                            <div id="solution3" class="solution">
-                                <p>Solution for JEE Advanced 2022 Question 1...</p>
+                        
+                        <!-- Advanced Papers -->
+                        <div class="paper">
+                            <h4 onclick="togglePaper('adv2022paper1')">Paper 1</h4>
+                            <div id="adv2022paper1" class="paper-content">
+                                <div class="question">
+                                    <h5>Question 1</h5>
+                                    <p>This is a JEE Advanced 2022 Paper 1 question...</p>
+                                    <button onclick="toggleSolution(3)">Show Solution</button>
+                                    <div id="solution3" class="solution">
+                                        <p>Solution for JEE Advanced 2022 Paper 1 Question 1...</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="year">
-                    <h3 onclick="toggleYear('adv2021')">2021</h3>
-                    <div id="adv2021" class="year-content">
-                        <div class="question">
-                            <h4>Question 1</h4>
-                            <p>This is a JEE Advanced 2021 question...</p>
-                            <button onclick="toggleSolution(4)">Show Solution</button>
-                            <div id="solution4" class="solution">
-                                <p>Solution for JEE Advanced 2021 Question 1...</p>
+
+                        <div class="paper">
+                            <h4 onclick="togglePaper('adv2022paper2')">Paper 2</h4>
+                            <div id="adv2022paper2" class="paper-content">
+                                <div class="question">
+                                    <h5>Question 1</h5>
+                                    <p>This is a JEE Advanced 2022 Paper 2 question...</p>
+                                    <button onclick="toggleSolution(4)">Show Solution</button>
+                                    <div id="solution4" class="solution">
+                                        <p>Solution for JEE Advanced 2022 Paper 2 Question 1...</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
